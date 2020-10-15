@@ -35,7 +35,7 @@ public class Win {
         boolean result = false;
         int[] diagonal = extractDiagonal(board);
         for (int i = 0; i < board.length; i++) {
-            if (diagonal[i] == 1 & (monoHorizontal(board, i) || monoVertical(board, i))) {
+            if (diagonal[i] == 1 && (monoHorizontal(board, i) || monoVertical(board, i))) {
                 result = true;
                 break;
             }
